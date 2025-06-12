@@ -1,0 +1,63 @@
+# This .gitignore file is for Unity projects.
+# It is designed to ignore common generated files,
+# temporary files, and local settings that should not be committed to a Git repository.
+
+# Unity generated files and folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Uu]ser[Ss]ettings/
+Assets/AssetStoreTools*
+
+# Visual Studio & IDE related files and folders
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+[Aa]ssets/Plugins/Editor/JetBrains* # JetBrains Rider plugin
+
+# Unity3D generated meta files
+# These are generated for files that *should* be ignored,
+# but their meta files might accidentally be included if not specified.
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Build artifacts
+*.apk
+*.unitypackage
+
+# Crash reports and system info
+sysinfo.txt
+crashlytics-build.properties
+
+# Operating System generated files
+# Mac
+.DS_Store
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Temporary or backup files
+~* # Backup files starting with ~ (like ~file.txt)
+
+# IMPORTANT: Never ignore Asset meta data (keep this line as is)
+!/[Aa]ssets/**/*.meta
